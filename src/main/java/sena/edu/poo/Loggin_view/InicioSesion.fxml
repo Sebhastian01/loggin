@@ -7,12 +7,11 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sena.edu.poo.Loggin_controller.InicioSesionController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sena.edu.poo.Loggin_controller.InicioSesionController">
    <children>
       <Button layoutX="294.0" layoutY="210.0" mnemonicParsing="false" onAction="#IniciarSesion" text="Iniciar Sesión" />
       <Button layoutX="294.0" layoutY="251.0" mnemonicParsing="false" onAction="#Registrarse" text="Registrarse" />
@@ -24,11 +23,10 @@
             <Font name="Franklin Gothic Medium Cond" size="25.0" />
          </font>
       </Text>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#094b89" height="505.0" layoutY="-2.0" stroke="#00000008" strokeType="INSIDE" width="267.0" />
-      <Circle fill="#f4f8fc" layoutX="127.0" layoutY="360.0" radius="79.0" stroke="#00000000" strokeType="INSIDE" />
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="52.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e43216" height="505.0" layoutY="-2.0" stroke="#00000008" strokeType="INSIDE" width="267.0" />
+      <ImageView fitHeight="203.0" fitWidth="201.0" layoutX="33.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@ps-tpaga.png" />
+            <Image url="@../../../../../../../assets/logo.png" />
          </image>
       </ImageView>
    </children>
